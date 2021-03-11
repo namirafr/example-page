@@ -39,7 +39,7 @@
 
       /* Add padding BETWEEN each column */
       .row,
-      .row > .column3,.row > .column2 {
+      .row > .column3 {
         padding: 8px;
       }
       /* Create four equal columns that floats next to each other */
@@ -48,7 +48,12 @@
         width: 25%;
         text-align: center;
       }
-
+      .column3:hover {
+        float: left;
+        width: 25%;
+        text-align: center;
+        background: black;
+      }
 
       /* Clear floats after rows */
       .row:after {
